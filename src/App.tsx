@@ -1,25 +1,19 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useContext, useEffect, useState } from 'react';
+import LotoFacil from './components/LotoFacil';
+import MegaSena from './components/MegaSena';
+import { Provider } from "./contexts"
+import useJogo from './hooks/JogoHook';
+import LoadingPage from './components/LoadingPage';
 
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Provider>
+      <MegaSena />
+      <LoadingPage />
+      <LotoFacil />
+
+    </Provider>
   );
 }
 
