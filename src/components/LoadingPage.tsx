@@ -24,7 +24,7 @@ function LoadingPage() {
             <div className="loadingPage" style={{ display: loaded ? "none" : "" }}>
                 <div className="loading">
                     <h1>
-                        The page is loading..
+                        Carregando..
                     </h1>
                 </div>
                 <div className="spinner">

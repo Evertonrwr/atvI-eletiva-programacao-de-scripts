@@ -5,13 +5,12 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-color: rgb(0, 92, 169);
-    color: white;
+    color: black;
 }
 
 .spinner {
     padding: 10px;
-    border: 10px solid white;
+    border: 10px solid rgb(0, 92, 169);
     border-top: 10px solid orange;
     border-radius: 100%;
 }

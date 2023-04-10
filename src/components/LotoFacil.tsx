@@ -20,7 +20,7 @@ function LotoFacil() {
 
                     </div>
                     <div className="description">
-                        Estimativa de premio do proximo concuncurso. Sorteio {lotoFacil.dataApuracao}
+                        Estimativa de premio do proximo concuncurso. Sorteio {lotoFacil.dataProximoConcurso}
                     </div>
                     <div className="value">
                         <h2>{loaded?lotoFacil.valorEstimadoProximoConcurso.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' }):""}</h2>
