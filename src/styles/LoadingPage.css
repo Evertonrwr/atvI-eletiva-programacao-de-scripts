@@ -30,3 +30,9 @@
         transform: rotate(1turn);
     }
 }
+hr{
+    margin-left:2%;
+    margin-right: 2%;
+    border:1px solid #d5d9df!important;
+   
+}

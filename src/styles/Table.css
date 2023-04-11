@@ -1,0 +1,45 @@
+.megasena ul li{
+    display: inline-block;
+    font-weight: 100;
+    color:white;
+    font-size:1.2rem;
+    padding: 9px 0px;
+    height: 10%;
+    width: 8%;
+    border-radius: 100%;
+    background-color: #209869;
+    margin-right: 25px;
+    text-align: center;
+    line-height: 2em;
+    font-weight: bold;
+
+}
+.megasena ul{
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start:0px;
+    width: 80%;
+ 
+}
+
+.lotofacil ul li{
+    display: inline-block;
+    color:#930989;
+    font-size:1.8rem;
+    padding: 20px;
+    border-bottom: solid 1px #d5d9df;
+    width:13%;
+
+}
+.lotofacil ul{
+    margin-block-start: 0px !important;
+    margin-block-end: 0px !important;
+    margin-inline-start: 0px !important;
+    margin-inline-end: 0px !important;
+    padding-inline-start: 0px !important;
+    margin-left: 0px !important;
+    width: 75%;
+    padding: 0px;
+}

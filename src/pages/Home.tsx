@@ -6,7 +6,7 @@ function Home() {
         <>
             <MegaSena />
             <LoadingPage />
-            <LotoFacil />
+            <LotoFacil /> 
         </>
     )
 }
